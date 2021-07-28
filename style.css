@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Montserrat:wght@100;200;300;700&display=swap');
+
+/* Media queries */
+@media(max-width: 1400px) {
+    .container {
+      width: 800px;
+    }
+  }
+
+  @media(max-width: 992px) {
+    .container {
+      width: 700px;
+    }
+  }
+
+  @media(max-width: 768px) {
+    .container {
+      width: 500px;
+    }
+  }
+
+  @media(max-width: 576px) {
+    .container {
+      width: 400px;
+    }
+  }
+
+  body {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    color: #494949;
+    margin: 0px;
+  }
+
+  h1 {
+    color:#A0A0A0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+  }
+
+  .container {
+    margin: 50px auto;
+  }
+
+img {
+  max-width: 100%;
+}
+
+.img-txt {
+  color: white;
+}
+
+#banner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img:hover {
+  filter: brightness(0.5);
+}
+
+.child1 {
+  position: absolute;
+  z-index: 1;
+}
+
+#self-link {
+  font-size: 25px;
+  color: #494949;
+  text-decoration: none;
+  background-color: rgba(125, 255, 179, .3);
+  font-family: 'Lora', serif;
+}
+
+#self-link:hover {
+  background-color: #7DFFB3;
+}
+
+#how-to-do {
+  margin-top: 20px;
+}
+
+.article h1 {
+  font-weight: 400;
+}
+
+
